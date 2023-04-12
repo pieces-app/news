@@ -4,11 +4,11 @@
     "sidebar": [
       ["Timeline", "/"],
       ["2023", [
-        ["GitHub Partner Startup", "/2023/github-partner-startup"],
         ["GitHub Showcase on Youtube", "/2023/github-showcase-on-youtube"],
         ["Google Founders Forum", "/2023/google-founders-forum"],
         ["Microsoft Partner Startup", "/2023/microsoft-partner-startup"],
-        ["Onyx Runtime Microsoft Blog", "/2023/onyx-runtime-microsoft-blog"]
+        ["Onyx Runtime Microsoft Blog", "/2023/onyx-runtime-microsoft-blog"],
+        ["GitHub Partner Startup", "/2023/github-partner-startup"]
       ]],
       ["2022", [
         ["Best Tech Startup In Cincinnati", "/2022/best-tech-startup-in-cinci"]
