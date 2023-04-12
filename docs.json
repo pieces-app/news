@@ -21,7 +21,9 @@
       }
     ],
     "sidebar": [
-      ["Timeline", "/"],
+      ["General", [
+        ["Timeline", "/"]
+      ]],
       ["2023", [
         ["GitHub Showcase on Youtube", "/2023/github-showcase-on-youtube"],
         ["Google Founders Forum", "/2023/google-founders-forum"],
