@@ -1,7 +1,8 @@
 {
-    "name": "docs.page",
+    "name": "Pieces for Developers",
     "theme": "#36B9B9",
     "sidebar": [
+      ["Timeline", "/"],
       ["2023", [
         ["GitHub Partner Startup", "/2023/github-partner-startup"],
         ["GitHub Showcase on Youtube", "/2023/github-showcase-on-youtube"],
