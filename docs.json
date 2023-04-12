@@ -1,6 +1,8 @@
 {
     "name": "News for Developers",
     "theme": "#36B9B9",
+    "logo": "/assets/pieces_dark.png",
+    "logoDark": "/assets/pieces_light.png",
     "anchors": [
       {
         "title": "Website Home",
@@ -24,10 +26,10 @@
         ["GitHub Showcase on Youtube", "/2023/github-showcase-on-youtube"],
         ["Google Founders Forum", "/2023/google-founders-forum"],
         ["Microsoft Partner Startup", "/2023/microsoft-partner-startup"],
-        ["Onyx Runtime Microsoft Blog", "/2023/onyx-runtime-microsoft-blog"],
+        ["Onyx Runtime Microsoft Blog", "/2023/onyx-runtime-microsoft-blog"]
       ]],
       ["2022", [
-        ["GitHub Partner Startup", "/2022/github-partner-startup"]
+        ["GitHub Partner Startup", "/2022/github-partner-startup"],
         ["Best Tech Startup In Cincinnati", "/2022/best-tech-startup-in-cinci"]
       ]],
       ["2021", [
