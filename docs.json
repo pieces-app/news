@@ -2,7 +2,19 @@
     "name": "docs.page",
     "theme": "#36B9B9",
     "sidebar": [
-      ["Home", "/"],
-      ["Another Page", "/another-page"]
+      ["2023", [
+        ["GitHub Partner Startup", "/2023/github-partner-startup"],
+        ["GitHub Showcase on Youtube", "/2023/github-showcase-on-youtube"],
+        ["Google Founders Forum", "/2023/google-founders-forum"],
+        ["Microsoft Partner Startup", "/2023/microsoft-partner-startup"],
+        ["Onyx Runtime Microsoft Blog", "/2023/onyx-runtime-microsoft-blog"]
+      ]],
+      ["2022", [
+        ["Best Tech Startup In Cincinnati", "/2022/best-tech-startup-in-cinci"]
+      ]],
+      ["2021", [
+        ["Series Seed Raise", "/2021/series-seed-raise"],
+        ["5 Under 25", "/2021/5-under-25"]
+      ]]
     ]
   }
