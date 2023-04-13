@@ -3,6 +3,7 @@
     "theme": "#36B9B9",
     "logo": "/assets/pieces_dark.png",
     "logoDark": "/assets/pieces_light.png",
+    "googleTagManager": "GTM-K8C6QWB",
     "anchors": [
       {
         "title": "Website Home",
