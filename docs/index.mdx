@@ -1,15 +1,16 @@
 # News
-## Read about our latest events, partnerships, and other exciting moments throughout the life of Pieces for Developers. There are links to articles alongside images and more. Excited to have you along this amazing journey with us!
+Read about our latest events, partnerships, and other exciting moments throughout the life of Pieces for Developers. There are links to articles alongside images and more. Excited to have you along this amazing journey with us!
 
+---
 ---
 
 export const DateDivider = props => {
-    return <div style={{ width: "100%", display: "flex", flexDirection: "row" }}>
+    return <div style={{ width: "100%", display: "flex", flexDirection: "row", flexWrap: "nowrap", justifyContent: "center" }}>
         <h1>{ props.children }</h1><span style={{ width: "100%", border: "1px solid grey", height: "2px" }}></span>
     </div>
 }
 
-![](/assets/robots_billboard)
+![](/assets/robots_billboard.png)
 
 <DateDivider>2023</DateDivider>
 
