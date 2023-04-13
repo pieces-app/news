@@ -10,6 +10,18 @@ export const DateDivider = props => {
     </div>
 }
 
+export const EventHeader = props => {
+    props.h1 = 'default';
+    props.p = 'date default';
+    return <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%", justifyContent: "start" }}>
+        <img alt="" src={ props.src } />
+        <h1>{ props.h1 }</h1>
+        <div style={{ backgroundColor: "#f3f4f5", borderRadius: "15px", padding: "5px 15px"}}>
+            <p>{ props.p }</p>
+        </div>
+    </div>
+}
+
 ![](/assets/robots_billboard.png)
 
 <DateDivider>2023</DateDivider>
