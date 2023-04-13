@@ -10,15 +10,16 @@ export const DateDivider = props => {
     </div>
 }
 
-export const EventHeader1 = props => {
+export const EventHeader = props => {
     return <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%", justifyContent: "start" }}>
-        <img alt="" src={"/assets/github_logo.png"} />
+        <Image src={ props.src } />
         <h1 style={{ marginRight: "8px" }}>{ props.h1 }</h1>
-        <div style={{ height: "50%", backgroundColor: "#f3f4f5", borderRadius: "15px", padding: "5px 15px"}}>
+        <div style={{ height: "50%", backgroundColor: "#f3f4f5", borderRadius: "15px", padding: "2px 15px"}}>
             <p style={{ marginTop: "0px", marginBottom: "0px", fontWeight: "500" }}>{ props.p }</p>
         </div>
     </div>
 }
+
 
 export const ClickThrough = props => {
     return <a style={{ textDecoration: "none"}} href={"https://www.youtube.com/watch?v=3VCPqik3QmE"}>
@@ -28,11 +29,13 @@ export const ClickThrough = props => {
     </a>
 }
 
+
+
 ![](/assets/robots_billboard.png)
 
 <DateDivider>2023</DateDivider>
 
-<EventHeader1 p="April 5, 2023" h1="GitHub Showcase on Youtube"></EventHeader1>
+<EventHeader p="April 5, 2023" h1="GitHub Showcase on Youtube" src="/assets/github_logo.png"></EventHeader>
 
 ##### Pieces was showcased on GitHub’s YouTube channel and across their social media to hundreds of thousands of subscribers. This was the inaugural episode of GitHub’s ‘Start it up Wednesday,’ a new show hosted by GitHub’s Rizel Scarlett. Tsavo showcased a modern developer’s workflow on the episode titled, “Optimizing your Development Workflow with AI.”
 
@@ -40,7 +43,6 @@ export const ClickThrough = props => {
 
 <ClickThrough>GitHub's Youtube Channel</ClickThrough>
 
----
 
 # Google Founders Forum
 #### ```February 28, 2023```
