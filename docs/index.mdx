@@ -20,6 +20,14 @@ export const EventHeader1 = props => {
     </div>
 }
 
+export const ClickThrough = props => {
+    return <a style={{ textDecoration: "none"}} href={"https://www.youtube.com/watch?v=3VCPqik3QmE"}>
+        <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
+            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "25px"}}>{ props.children }</p>
+        </div>
+    </a>
+}
+
 ![](/assets/robots_billboard.png)
 
 <DateDivider>2023</DateDivider>
@@ -30,7 +38,7 @@ export const EventHeader1 = props => {
 
 ##### The Live Stream was over an hour long and showcased cutting edge machine learning that left the audience awestruck. Tsavo demoed the latest features of the Pieces Desktop app, including the ability to generate new code from a short plain English description, provide relevant descriptions and links to external resources, and share with teammates (soon via Microsoft Teams). He also demonstrated offline capabilities, proving that the age of on-device ML is here.
 
-<a href="https://www.youtube.com/watch?v=3VCPqik3QmE">Github Youtube Channel</a>
+<ClickThrough>GitHub's Youtube Channel</ClickThrough>
 
 ---
 
