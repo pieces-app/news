@@ -13,8 +13,8 @@ export const DateDivider = props => {
 export const EventHeader = props => {
     return <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%", justifyContent: "start" }}>
         <img alt="" src={ props.src } />
-        <h1>{ props.h1 }</h1>
-        <div style={{ backgroundColor: "#f3f4f5", borderRadius: "15px", padding: "5px 15px"}}>
+        <h1 style={{ marginRight: "8px" }}>{ props.h1 }</h1>
+        <div style={{ height: "50%", backgroundColor: "#f3f4f5", borderRadius: "15px", padding: "5px 15px"}}>
             <p style={{ marginTop: "0px", marginBottom: "0px" }}>{ props.p }</p>
         </div>
     </div>
