@@ -19,7 +19,7 @@ export const EventHeader = props => {
 }
 
 export const Spacer = props => {
-    return <div style={{ height: "30px" }}></div>
+    return <div style={{ height: "20px" }}></div>
 }
 
 export const ClickThroughGithubYoutube = props => {
@@ -67,6 +67,10 @@ export const ClickThroughBizJournal2021 = props => {
     </a>
 }
 
+export const SeeMore = props => {
+    return <a href={ props.hreflang }>{ props.children }</a>
+}
+
 
 # Company News
 Read about our latest events, partnerships, and other exciting moments throughout the life of Pieces for Developers. There are links to articles alongside images and more. Excited to have you along this amazing journey with us!
@@ -77,9 +81,7 @@ Read about our latest events, partnerships, and other exciting moments throughou
 
 <EventHeader p="April 5, 2023" h1="GitHub Showcase on Youtube"></EventHeader>
 
-Pieces was showcased on GitHub’s YouTube channel and across their social media to hundreds of thousands of subscribers. This was the inaugural episode of GitHub’s ‘Start it up Wednesday,’ a new show hosted by GitHub’s Rizel Scarlett. Tsavo showcased a modern developer’s workflow on the episode titled, “Optimizing your Development Workflow with AI.”
-
-The Live Stream was over an hour long and showcased cutting edge machine learning that left the audience awestruck. Tsavo demoed the latest features of the Pieces Desktop app, including the ability to generate new code from a short plain English description, provide relevant descriptions and links to external resources, and share with teammates (soon via Microsoft Teams). He also demonstrated offline capabilities, proving that the age of on-device ML is here.
+Pieces was showcased on GitHub’s YouTube channel and across their social media to hundreds of thousands of subscribers. This was the inaugural episode of GitHub’s ‘Start it up Wednesday,’ a new show hosted by GitHub’s Rizel Scarlett. Tsavo showcased a modern developer’s workflow on the episode titled, “Optimizing your Development Workflow with AI.” <SeeMore hreflang="/2023/github-showcase-on-youtube.mdx">See more</a>
 
 <ClickThroughGithubYoutube>GitHub's Youtube Channel</ClickThroughGithubYoutube>
 
