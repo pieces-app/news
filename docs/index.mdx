@@ -5,13 +5,13 @@ description: Read about our latest events, partnerships, and other exciting mome
 
 export const DateDivider = props => {
     return <div style={{ margin: "64px 0px", width: "100%", display: "flex", flexDirection: "row", flexWrap: "nowrap", justifyContent: "center" }}>
-        <h1 style={{ margin: "auto", paddingRight: "16px" }}>{ props.children }</h1><span style={{ margin: "auto 0", width: "100%", border: "1px solid #b8bcc4", height: "2px" }}></span>
+        <h2 style={{ margin: "auto", paddingRight: "16px" }}>{ props.children }</h2><span style={{ margin: "auto 0", width: "100%", border: "1px solid #b8bcc4", height: "2px" }}></span>
     </div>
 }
 
 export const EventHeader = props => {
     return <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%", justifyContent: "start" }}>
-        <h1 style={{ marginRight: "16px" }}>{ props.h1 }</h1>
+        <h3 style={{ marginRight: "16px" }}>{ props.h1 }</h3>
         <div style={{ height: "50%", backgroundColor: "#f3f4f5", borderRadius: "20px", padding: "2px 15px", marginBottom: "16px", marginTop: "2px" }}>
             <p style={{ marginTop: "0px", marginBottom: "0px", fontWeight: "500", color: "black" }}>{ props.p }</p>
         </div>
