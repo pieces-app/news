@@ -11,7 +11,7 @@ export const DateDivider = props => {
 
 export const EventHeader = props => {
     return <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%", justifyContent: "start" }}>
-        <h1 style={{ marginRight: "8px" }}>{ props.h1 }</h1>
+        <h1 style={{ marginRight: "16px" }}>{ props.h1 }</h1>
         <div style={{ height: "50%", backgroundColor: "#f3f4f5", borderRadius: "20px", padding: "2px 15px", marginBottom: "16px", marginTop: "2px" }}>
             <p style={{ marginTop: "0px", marginBottom: "0px", fontWeight: "500", color: "black" }}>{ props.p }</p>
         </div>
@@ -26,7 +26,7 @@ export const ClickThroughGithubYoutube = props => {
     props.linker = "https://www.youtube.com/watch?v=3VCPqik3QmE"
     return <a style={{ textDecoration: "none"}} href={ props.linker }>
         <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
-            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "25px"}}>{ props.children }</p>
+            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "30px"}}>{ props.children }</p>
         </div>
     </a>
 }
@@ -35,7 +35,7 @@ export const ClickThroughGoogleFounders = props => {
     props.linker = "https://rsvp.withgoogle.com/events/google-founders-forum"
     return <a style={{ textDecoration: "none"}} href={ props.linker }>
         <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
-            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "25px"}}>{ props.children }</p>
+            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "30px"}}>{ props.children }</p>
         </div>
     </a>
 }
@@ -44,7 +44,7 @@ export const ClickThroughMicrosoftOnyxBlog = props => {
     props.linker = "https://cloudblogs.microsoft.com/opensource/2023/02/08/performant-on-device-inferencing-with-onnx-runtime/"
     return <a style={{ textDecoration: "none"}} href={ props.linker }>
         <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
-            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "25px"}}>{ props.children }</p>
+            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "30px"}}>{ props.children }</p>
         </div>
     </a>
 }
@@ -53,7 +53,7 @@ export const ClickThroughBizJournal2022 = props => {
     props.linker = "https://www.bizjournals.com/cincinnati/inno/stories/awards/2022/06/24/inno-fire-winners.html"
     return <a style={{ textDecoration: "none"}} href={ props.linker }>
         <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
-            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "25px"}}>{ props.children }</p>
+            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "30px"}}>{ props.children }</p>
         </div>
     </a>
 }
@@ -62,7 +62,7 @@ export const ClickThroughBizJournal2021 = props => {
     props.linker = "https://www.bizjournals.com/cincinnati/inno/stories/news/2021/09/17/five-innovators-to-watch.html"
     return <a style={{ textDecoration: "none"}} href={ props.linker }>
         <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
-            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "25px"}}>{ props.children }</p>
+            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "30px"}}>{ props.children }</p>
         </div>
     </a>
 }
@@ -104,7 +104,7 @@ As we broaden our range of integrations and plugins to cover the entire develope
 
 <Spacer></Spacer>
 
-<EventHeader p="February 8, 2023" h1="ONNX Runtime Microsoft Blog"></EventHeader>
+<EventHeader p="February 8, 2023" h1="ONYX Runtime Microsoft Blog"></EventHeader>
 
 Pieces for Developers featured on the Microsoft Open Source Blog, highlighting the partnership between ONNX Runtime (Microsoft) and Pieces.
 
@@ -131,7 +131,7 @@ In early 2022, Pieces was nominated as one of the best tech startups in Cincinna
 Main Street Ventures introduced Launch It: Cincy, a program aimed at encouraging student-led startups in Cincinnati. As part of this initiative, Cincy Inno selected five entrepreneurs under the age of 25 who have the potential to become the next power players in the city's startup space. One of these entrepreneurs is Pieces’ very own Co-Founder & CEO, Tsavo Knott. Pieces is an Over-the-Rhine-based technology startup that has built a productivity platform that enables saving and sharing of file fragments.
 <ReadMore hreflang="/2021/5-under-25"></ReadMore>
 
-<ClickThroughBizJournal2021>Check it out here</ClickThroughBizJournal2021>
+<ClickThroughBizJournal2021>Biz Journal Article</ClickThroughBizJournal2021>
 
 <Spacer></Spacer>
 
