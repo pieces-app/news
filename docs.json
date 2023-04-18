@@ -1,5 +1,5 @@
 {
-    "name": "Pieces for Developers",
+    "name": "Pieces",
     "theme": "#36B9B9",
     "favicon": "/assets/pieces_dark.png",
     "logo": "/assets/pieces_dark.png",
@@ -12,7 +12,7 @@
         "link": "https://pieces.app"
       },
       {
-        "title": "What's New at Pieces?",
+        "title": "Product Updates",
         "icon": "pencil",
         "link": "https://pieces.app/updates"
       },

@@ -1,5 +1,18 @@
-# Series Seed Raise
-#### June 2021
+---
+title: Series Seed Raise
+description: Cincinnati, OH - Pieces for Developers, a deep tech startup, announced today that it has raised $8 million in a series seed funding round led by Drive Capital, a Columbus-based venture capital firm.
+---
+
+export const EventHeader = props => {
+    return <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%", justifyContent: "start" }}>
+        <h1 style={{ marginRight: "16px" }}>{ props.h1 }</h1>
+        <div style={{ height: "50%", backgroundColor: "#f3f4f5", borderRadius: "20px", padding: "2px 15px", marginBottom: "16px", marginTop: "2px" }}>
+            <p style={{ marginTop: "0px", marginBottom: "0px", fontWeight: "500", color: "black" }}>{ props.p }</p>
+        </div>
+    </div>;
+}
+
+<EventHeader p="June 2021" h1="Series Seed Raise"></EventHeader>
 
 **Cincinnati, OH - Pieces for Developers, a deep tech startup, announced today that it has raised $8 million in a series seed funding round led by Drive Capital, a Columbus-based venture capital firm. Additionally, the company secured $3 million in venture debt from Silicon Valley Bank. The funding was raised in June 2021, and the company plans to use the capital to accelerate the product development of its first-in-kind productivity suite for developers.**
 
