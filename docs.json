@@ -7,7 +7,7 @@
     "googleTagManager": "GTM-K8C6QWB",
     "anchors": [
       {
-        "title": "Website Home",
+        "title": "Go to pieces.app",
         "icon": "home",
         "link": "https://pieces.app"
       },
@@ -27,6 +27,7 @@
         ["Timeline", "/"]
       ]],
       ["2023", [
+        ["TL;DR Newsletter", "/2023/tldr-newsletter"],
         ["GitHub Showcase on Youtube", "/2023/github-showcase-on-youtube"],
         ["Google Founders Forum", "/2023/google-founders-forum"],
         ["Microsoft Partner Startup", "/2023/microsoft-partner-startup"],

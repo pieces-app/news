@@ -22,6 +22,15 @@ export const Spacer = props => {
     return <div style={{ height: "40px" }}></div>
 }
 
+export const ClickThroughPiecesGithubYTFeature = props => {
+    props.linker = "https://www.youtube.com/playlist?list=PL3ufX1Aqkp15ZLaw4WJyocF71_PXE5AjV"
+    return <a style={{ textDecoration: "none"}} href={ props.linker }>
+        <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
+            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "30px"}}>{ props.children }</p>
+        </div>
+    </a>
+}
+
 export const ClickThroughGithubYoutube = props => {
     props.linker = "https://www.youtube.com/watch?v=3VCPqik3QmE"
     return <a style={{ textDecoration: "none"}} href={ props.linker }>
@@ -79,6 +88,18 @@ export const ReadMore = props => {
 Pieces is on a mission to revolutionize developer productivity by changing the way we interact with code snippets, screenshots, and other file fragments. Follow our journey here as we share our latest events, partnerships, and other exciting moments!
 
 <DateDivider>2023</DateDivider>
+
+<EventHeader p="April 13, 2023" h1="TLDR Newsletter"></EventHeader>
+
+Exciting news! Pieces for Developers has been featured in the TLDR newsletter highlighting the recent appearance on GitHub's YouTube Channel. The team at Pieces for Developers is on a mission to reimagine the modern developer’s workflow, and what they've built is probably the most advanced code snippet manager/productivity helper to date.
+
+> During the live-stream on GitHub's YouTube channel, Tsavo Knott, along with Rizel Scarlett (Developer Advocate at GitHub), the Pieces Team, and a lively audience had a blast chatting it up about developer productivity and what our start-up is ambitiously building. The event was packed with bleeding-edge demos from our latest release, showcasing simple yet creative features that didn't go unnoticed
+
+We're thrilled to be showcased by GitHub and to have had the opportunity to share our vision and tools with their community. Check out the recap highlight clips from the live-stream and try it out for yourself! Better developer productivity starts with the simple things, and Pieces is here to help!
+
+<ClickThroughPiecesGithubYTFeature>GitHub Recap Highlights</ClickThroughPiecesGithubYTFeature>
+
+<Spacer></Spacer>
 
 <EventHeader p="April 5, 2023" h1="GitHub Showcase on Youtube"></EventHeader>
 
@@ -154,3 +175,12 @@ The investment round was led by Chris Olsen of Drive Capital. Olsen later joined
 Pieces for Developers is rethinking the modern developer workflow to eliminate the chaos of context switching and be more efficient in their research and collaboration. The suite plugs into and streamlines existing developer tools to provide a unified, customizable environment, saving time and improving productivity. <ReadMore hreflang="/2021/series-seed-raise"></ReadMore>
 
 <Spacer></Spacer>
+
+<EventHeader p="April 13, 2023" h1="TLDR Newsletter"></EventHeader>
+
+Exciting news! Pieces for Developers has been featured in the TLDR newsletter highlighting the recent appearance on GitHub's YouTube Channel. The team at Pieces for Developers is on a mission to reimagine the modern developer’s workflow, and what they've built is probably the most advanced code snippet manager/productivity helper to date.
+
+> During the live-stream on GitHub's YouTube channel, Tsavo Knott, along with Rizel Scarlett (Developer Advocate at GitHub), the Pieces Team, and a lively audience had a blast chatting it up about developer productivity and what our start-up is ambitiously building. The event was packed with bleeding-edge demos from our latest release, showcasing simple yet creative features that didn't go unnoticed
+
+We're thrilled to be showcased by GitHub and to have had the opportunity to share our vision and tools with their community. Check out the recap highlight clips from the live-stream and try it out for yourself! Better developer productivity starts with the simple things, and Pieces is here to help!
+
