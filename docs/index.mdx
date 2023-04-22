@@ -22,8 +22,8 @@ export const Spacer = props => {
     return <div style={{ height: "40px" }}></div>
 }
 
-export const ClickThroughPiecesGithubYTFeature = props => {
-    props.linker = "https://www.youtube.com/playlist?list=PL3ufX1Aqkp15ZLaw4WJyocF71_PXE5AjV"
+export const ClickThroughPiecesTLDRFeature = props => {
+    props.linker = "https://tldr.tech/tech/2023-04-13"
     return <a style={{ textDecoration: "none"}} href={ props.linker }>
         <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
             <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "30px"}}>{ props.children }</p>
@@ -89,7 +89,7 @@ Pieces is on a mission to revolutionize developer productivity by changing the w
 
 <DateDivider>2023</DateDivider>
 
-<EventHeader p="April 13, 2023" h1="TLDR Newsletter"></EventHeader>
+<EventHeader p="April 13, 2023" h1="TL;DR Newsletter"></EventHeader>
 
 Exciting news! Pieces for Developers has been featured in the TLDR newsletter highlighting the recent appearance on GitHub's YouTube Channel. The team at Pieces for Developers is on a mission to reimagine the modern developer’s workflow, and what they've built is probably the most advanced code snippet manager/productivity helper to date.
 
@@ -97,7 +97,7 @@ Exciting news! Pieces for Developers has been featured in the TLDR newsletter hi
 
 We're thrilled to be showcased by GitHub and to have had the opportunity to share our vision and tools with their community. Check out the recap highlight clips from the live-stream and try it out for yourself! Better developer productivity starts with the simple things, and Pieces is here to help!
 
-<ClickThroughPiecesGithubYTFeature>GitHub Recap Highlights</ClickThroughPiecesGithubYTFeature>
+<ClickThroughPiecesTLDRFeature>TL;DR Newsletter Feature</ClickThroughPiecesTLDRFeature>
 
 <Spacer></Spacer>
 
