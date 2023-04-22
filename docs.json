@@ -18,6 +18,11 @@
         "link": "https://pieces.app/updates"
       },
       {
+        "title": "Wiki & Docs",
+        "icon": "book",
+        "link": "https://docs.pieces.app"
+      },
+      {
         "title": "YouTube Channel",
         "icon": "youtube",
         "link": "https://youtube.com/@getpieces"
