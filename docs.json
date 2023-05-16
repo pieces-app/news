@@ -23,6 +23,11 @@
         "link": "https://docs.pieces.app"
       },
       {
+        "title": "Coding Blog",
+        "icon": "newspaper",
+        "link": "https://code.pieces.app/blog"
+      },
+      {
         "title": "YouTube Channel",
         "icon": "youtube",
         "link": "https://youtube.com/@getpieces"
