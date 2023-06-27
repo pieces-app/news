@@ -28,6 +28,11 @@
         "link": "https://code.pieces.app/blog"
       },
       {
+        "title": "Discord",
+        "icon": "discord",
+        "link": "https://discord.gg/getpieces"
+      },
+      {
         "title": "YouTube Channel",
         "icon": "youtube",
         "link": "https://youtube.com/@getpieces"
@@ -49,7 +54,10 @@
       ]],
       ["2022", [
         ["GitHub Partner Startup", "/2022/github-partner-startup"],
-        ["Best Tech Startup In Cincinnati", "/2022/best-tech-startup-in-cincy"]
+        ["Github Universe", "/2022/github-universe"],
+        ["Startup Cincy Week", "/2022/startup-cincy-week"],
+        ["Best Tech Startup In Cincinnati", "/2022/best-tech-startup-in-cincy"],
+        ["Pieces VSCode Extension Trending", "/2022/pieces-vscode-trending"]
       ]],
       ["2021", [
         ["Chromium Browser Extension", "/#Pieces%20Helps%20Developers%20Save%20&%20Organize%20Code%20Snippets%20Directly%20from%20the%20Browser%20with%20Chromium%20Browser%20Extension"],
