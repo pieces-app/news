@@ -1,0 +1,16 @@
+---
+title: Featured in TLDR Newsletter
+description: Exciting news! Pieces for Developers has been featured in the TLDR newsletter highlighting the recent appearance on GitHub's YouTube Channel.
+---
+
+export const EventHeader = props => {
+    return <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%", justifyContent: "start" }}>
+        <h1 style={{ marginRight: "16px" }}>{ props.h1 }</h1>
+        <div style={{ height: "50%", backgroundColor: "#f3f4f5", borderRadius: "20px", padding: "2px 15px", marginBottom: "16px", marginTop: "2px" }}>
+            <p style={{ marginTop: "0px", marginBottom: "0px", fontWeight: "500", color: "black" }}>{ props.p }</p>
+        </div>
+    </div>;
+}
+
+
+<EventHeader p="April 13, 2023" h1="TLDR Newsletter"></EventHeader>
