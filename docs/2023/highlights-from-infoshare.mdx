@@ -3,6 +3,17 @@ title: Highlights from InfoShare
 description: Pieces for Developers was one of the first booths that attendees could visit upon entering the exhibit hall, and our team shared Pieces with hundreds of developers.
 ---
 
+export const EventHeader = props => {
+    return <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%", justifyContent: "start" }}>
+        <h1 style={{ marginRight: "16px" }}>{ props.h1 }</h1>
+        <div style={{ height: "50%", backgroundColor: "#f3f4f5", borderRadius: "20px", padding: "2px 15px", marginBottom: "16px", marginTop: "2px" }}>
+            <p style={{ marginTop: "0px", marginBottom: "0px", fontWeight: "500", color: "black" }}>{ props.p }</p>
+        </div>
+    </div>;
+}
+
+<EventHeader p="May 2023" h1="Highlights from InfoShare"></EventHeader>
+
 In May 2023, several members of our Engineering team exhibited Pieces at InfoShare, the largest tech event in CEE. Pieces for Developers was one of the first booths that attendees could visit upon entering the exhibit hall, and our team shared Pieces with hundreds of developers.
 
 ![Kuba and Dom at the InfoShare Booth](/assets/infoshare_kuba_dom.jpg)
