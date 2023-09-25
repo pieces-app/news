@@ -18,7 +18,7 @@
         "link": "https://pieces.app/updates"
       },
       {
-        "title": "Wiki & Docs",
+        "title": "Documentation",
         "icon": "book",
         "link": "https://docs.pieces.app"
       },
@@ -43,7 +43,11 @@
         ["Timeline", "/"]
       ]],
       ["2023", [
+        ["Copilot & Local Processing", "/2023/copilot-and-local-processing"],
+        ["Google Cloud Next", "/2023/google-cloud-next"],
         ["Product Hunt Launch", "/2023/product-hunt-launch"],
+        ["JupyterLab Extension Release", "/2023/jupyterlab-extension-available"],
+        ["Obsidian Plugin Release", "/2023/obsidian-plugin-available"],
         ["Highlights from Build", "/2023/highlights-from-build"],
         ["Highlights from InfoShare", "/2023/highlights-from-infoshare"],
         ["Microsoft Build 2023", "/#Microsoft%20Build%202023"],
