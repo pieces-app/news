@@ -43,6 +43,12 @@
         ["Timeline", "/"]
       ]],
       ["2023", [
+        ["Google: Building with AI", "/2023/building-with-ai-with-pieces-for-developers"],
+        ["GitHub Universe 2023", "/2023/github-universe"],
+        ["AI in Business Podcast", "/2023/ai-in-business-podcast"],
+        ["Software Engineering Daily", "/2023/software-engineering-daily-developer-productivity"],
+        ["The Startup Cincy Week", "/2023/startup-cincy-2023"],
+        ["The Hanselminutes Podcast", "/2023/hanselminutes-podcast"],
         ["Copilot & Local Processing", "/2023/copilot-and-local-processing"],
         ["Google Cloud Next", "/2023/google-cloud-next"],
         ["Product Hunt Launch", "/2023/product-hunt-launch"],
