@@ -15,7 +15,7 @@ export const EventHeader = props => {
 export const ImageContainer = props => {
     return <div style={{display: "flex", flexDirection: "row"}}>
         { props.children.forEach( (child) => {
-            return <div style={{ maxWidth: "100px", maxHeight: "250px", padding: "5px"}}>
+            return <div style={{ maxWidth: "100px", maxHeight: "250px"}}>
                 {child}
             </div>
         })}
