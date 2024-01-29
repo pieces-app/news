@@ -13,10 +13,10 @@ export const EventHeader = props => {
 }
 
 export const ImageContainer = props => {
-    return <div style={{display: "flex", flexDirection: "row"}}>
+    return <div style={{ display: "flex", flexDirection: "row" }}>
         { props.children.forEach( (child) => {
             return <div>
-                {child}
+                { child }
             </div>
         })}
     </div>;
