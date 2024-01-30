@@ -12,6 +12,12 @@ export const EventHeader = props => {
     </div>;
 }
 
+export const ImageContainer = props => {
+    return <div style={{ display: "flex", flexDirection: "row", overflowY: "hidden", flexWrap: "wrap", justifyContent: "center" }}>
+        { props.children }
+    </div>;
+}
+
 <EventHeader p="May 30, 2023" h1="Highlights from Build"></EventHeader>
 
 Pieces for Developers made a strong showing at Microsoft Build 2023. As a Microsoft Copilot Partner, we are currently building and shipping new experiences to the 300 million monthly active users on Microsoft Teams. Pieces was mentioned multiple times in sessions at Microsoft Build, including in all three keynote addresses.
@@ -20,7 +26,11 @@ Here are some of the highlights of Pieces for Developers at Microsoft Build:
 
 - Pieces for Developers was mentioned in all three keynote addresses. It’s a big milestone for a startup like ours to share the stage with much larger companies. It was great to see our logo up on the screen with businesses that we would love to work with!
 
-![CEO of Microsoft Satya during the keynote.](/assets/satya_stage_build.png)
+<ImageContainer>
+    <Image height="250px" alt="CEO of Microsoft Satya during the keynote." src="/assets/satya_stage_build.png" />
+    <Image height="250px" alt="CEO of Microsoft Satya during the keynote with Pieces Circled." src="/assets/satya_stage_superzoom_circle.png" />
+</ImageContainer>
+
 
 - Pieces for Developers had a live demo at Build! The session was about how developers could better use Microsoft Teams. It was well-attended, and many attendees were interested in learning more about Pieces. [Check out what the app enables developers to do in Teams.](https://www.youtube.com/watch?v=DoFYQ1PL4lc)
 
