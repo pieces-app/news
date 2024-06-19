@@ -13,19 +13,19 @@
         "link": "https://pieces.app"
       },
       {
-        "title": "Coding Blog",
-        "icon": "newspaper",
-        "link": "https://code.pieces.app/blog"
-      },
-      {
         "title": "Product Updates",
         "icon": "pencil",
         "link": "https://code.pieces.app/updates"
       },
       {
-        "title": "Company News",
+        "title": "Documentation",
+        "icon": "book",
+        "link": "https://docs.pieces.app"
+      },
+      {
+        "title": "Coding Blog",
         "icon": "newspaper",
-        "link": "https://news.pieces.app"
+        "link": "https://code.pieces.app/blog"
       },
       {
         "title": "YouTube Channel",
