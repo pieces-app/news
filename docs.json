@@ -2,9 +2,9 @@
     "name": "Pieces for Developers",
     "theme": "#BFC5EA",
     "twitter": "getpieces",
-    "favicon": "/assets/pieces_dark.png",
-    "logo": "/assets/pieces_dark.png",
-    "logoDark": "/assets/pieces_light.png",
+    "favicon": "/assets/pieces_logo.png",
+    "logo": "/assets/pieces_logo.png",
+    "logoDark": "/assets/pieces_logo.png",
     "googleTagManager": "GTM-K8C6QWB",
     "anchors": [
       {
@@ -13,24 +13,34 @@
         "link": "https://pieces.app"
       },
       {
-        "title": "Product Updates",
-        "icon": "pencil",
-        "link": "https://pieces.app/updates"
-      },
-      {
-        "title": "Wiki & Docs",
-        "icon": "book",
-        "link": "https://docs.pieces.app"
-      },
-      {
         "title": "Coding Blog",
         "icon": "newspaper",
         "link": "https://code.pieces.app/blog"
       },
       {
+        "title": "Product Updates",
+        "icon": "pencil",
+        "link": "https://code.pieces.app/updates"
+      },
+      {
+        "title": "Company News",
+        "icon": "newspaper",
+        "link": "https://news.pieces.app"
+      },
+      {
         "title": "YouTube Channel",
         "icon": "youtube",
         "link": "https://youtube.com/@getpieces"
+      },
+      {
+        "title": "Discord",
+        "icon": "discord",
+        "link": "https://discord.gg/getpieces"
+      },
+      {
+        "title": "Contact Support",
+        "icon": "headset",
+        "link": "https://docs.pieces.app/support"
       }
     ],
     "sidebar": [
@@ -39,8 +49,8 @@
       ]],
       ["2023", [
         ["Highlights from Build", "/2023/highlights-from-build"],
-        ["Microsoft Build 2023", "/#Microsoft%20Build%202023"],
-        ["Microsoft Teams App", "/#Pieces%20for%20Developers%20Microsoft%20Teams%20App%20Available%20on%20Teams%20Store!"],
+        ["Microsoft Build 2023", "/2023/microsoft-build-2023"],
+        ["Microsoft Teams App", "/2023/microsoft-teams-app"],
         ["TLDR Newsletter", "/2023/tldr-newsletter"],
         ["GitHub Showcase on Youtube", "/2023/github-showcase-on-youtube"],
         ["Google Founders Forum", "/2023/google-founders-forum"],
@@ -49,13 +59,13 @@
       ]],
       ["2022", [
         ["GitHub Partner Startup", "/2022/github-partner-startup"],
-        ["Best Tech Startup In Cincinnati", "/2022/best-tech-startup-in-cincy"]
+        ["Best Tech Startup In Cincinnati", "/2022/best-tech-startup-in-cincinnati"]
       ]],
       ["2021", [
-        ["Chromium Browser Extension", "/#Pieces%20Helps%20Developers%20Save%20&%20Organize%20Code%20Snippets%20Directly%20from%20the%20Browser%20with%20Chromium%20Browser%20Extension"],
+        ["Chromium Browser Extension", "/2021/chromium-browser-extension"],
         ["Series Seed Raise", "/2021/series-seed-raise"],
-        ["Jetbrains Plugin Released", "/#Pieces%20for%20JetBrains%20released"],
-        ["VSCode Extension Released", "/#Pieces%20for%20VS%20Code:%20Productivity%20Enhancements%20Directly%20in%20your%20IDE"],
+        ["JetBrains Plugin Released", "/2021/jetbrains-plugin-released"],
+        ["VSCode Extension Released", "/2021/vscode-extension-released"],
         ["5 Under 25", "/2021/5-under-25"]
       ]]
     ]
