@@ -73,9 +73,6 @@
       "destination": "https://pieces.app/news",
       "statusCode": 301
     },
-
-
-
     {
       "source": "https://news.pieces.app/*",
       "destination": "https://pieces.app/news/:splat",
